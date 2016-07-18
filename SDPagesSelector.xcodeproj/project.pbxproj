@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABB23E91D3BE0CB00DDDF6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DABB23E81D3BE0CB00DDDF6C /* main.m */; };
+		DABB23EC1D3BE0CB00DDDF6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DABB23EB1D3BE0CB00DDDF6C /* AppDelegate.m */; };
+		DABB23EF1D3BE0CB00DDDF6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABB23EE1D3BE0CB00DDDF6C /* ViewController.m */; };
+		DABB23F21D3BE0CB00DDDF6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABB23F01D3BE0CB00DDDF6C /* Main.storyboard */; };
+		DABB23F41D3BE0CB00DDDF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABB23F31D3BE0CB00DDDF6C /* Assets.xcassets */; };
+		DABB23F71D3BE0CB00DDDF6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABB23F51D3BE0CB00DDDF6C /* LaunchScreen.storyboard */; };
+		DABB24061D3BE12F00DDDF6C /* SDCursorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DABB24021D3BE12F00DDDF6C /* SDCursorView.m */; };
+		DABB24071D3BE12F00DDDF6C /* SDSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DABB24041D3BE12F00DDDF6C /* SDSelectorCell.m */; };
+		DABB240A1D3BE1BD00DDDF6C /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABB24091D3BE1BD00DDDF6C /* ShowViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DABB23E41D3BE0CB00DDDF6C /* SDPagesSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDPagesSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABB23E81D3BE0CB00DDDF6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DABB23EA1D3BE0CB00DDDF6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DABB23EB1D3BE0CB00DDDF6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DABB23ED1D3BE0CB00DDDF6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DABB23EE1D3BE0CB00DDDF6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DABB23F11D3BE0CB00DDDF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABB23F31D3BE0CB00DDDF6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DABB23F61D3BE0CB00DDDF6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DABB23F81D3BE0CB00DDDF6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABB24011D3BE12F00DDDF6C /* SDCursorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCursorView.h; sourceTree = "<group>"; };
+		DABB24021D3BE12F00DDDF6C /* SDCursorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCursorView.m; sourceTree = "<group>"; };
+		DABB24031D3BE12F00DDDF6C /* SDSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSelectorCell.h; sourceTree = "<group>"; };
+		DABB24041D3BE12F00DDDF6C /* SDSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSelectorCell.m; sourceTree = "<group>"; };
+		DABB24081D3BE1BD00DDDF6C /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		DABB24091D3BE1BD00DDDF6C /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABB23E11D3BE0CB00DDDF6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABB23DB1D3BE0CB00DDDF6C = {
+			isa = PBXGroup;
+			children = (
+				DABB23E61D3BE0CB00DDDF6C /* SDPagesSelector */,
+				DABB23E51D3BE0CB00DDDF6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABB23E51D3BE0CB00DDDF6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABB23E41D3BE0CB00DDDF6C /* SDPagesSelector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABB23E61D3BE0CB00DDDF6C /* SDPagesSelector */ = {
+			isa = PBXGroup;
+			children = (
+				DABB23FE1D3BE12F00DDDF6C /* SDPagesSelector */,
+				DABB23EA1D3BE0CB00DDDF6C /* AppDelegate.h */,
+				DABB23EB1D3BE0CB00DDDF6C /* AppDelegate.m */,
+				DABB23ED1D3BE0CB00DDDF6C /* ViewController.h */,
+				DABB23EE1D3BE0CB00DDDF6C /* ViewController.m */,
+				DABB24081D3BE1BD00DDDF6C /* ShowViewController.h */,
+				DABB24091D3BE1BD00DDDF6C /* ShowViewController.m */,
+				DABB23F01D3BE0CB00DDDF6C /* Main.storyboard */,
+				DABB23F31D3BE0CB00DDDF6C /* Assets.xcassets */,
+				DABB23F51D3BE0CB00DDDF6C /* LaunchScreen.storyboard */,
+				DABB23F81D3BE0CB00DDDF6C /* Info.plist */,
+				DABB23E71D3BE0CB00DDDF6C /* Supporting Files */,
+			);
+			path = SDPagesSelector;
+			sourceTree = "<group>";
+		};
+		DABB23E71D3BE0CB00DDDF6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DABB23E81D3BE0CB00DDDF6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DABB23FE1D3BE12F00DDDF6C /* SDPagesSelector */ = {
+			isa = PBXGroup;
+			children = (
+				DABB24011D3BE12F00DDDF6C /* SDCursorView.h */,
+				DABB24021D3BE12F00DDDF6C /* SDCursorView.m */,
+				DABB24031D3BE12F00DDDF6C /* SDSelectorCell.h */,
+				DABB24041D3BE12F00DDDF6C /* SDSelectorCell.m */,
+			);
+			path = SDPagesSelector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABB23E31D3BE0CB00DDDF6C /* SDPagesSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABB23FB1D3BE0CB00DDDF6C /* Build configuration list for PBXNativeTarget "SDPagesSelector" */;
+			buildPhases = (
+				DABB23E01D3BE0CB00DDDF6C /* Sources */,
+				DABB23E11D3BE0CB00DDDF6C /* Frameworks */,
+				DABB23E21D3BE0CB00DDDF6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDPagesSelector;
+			productName = SDPagesSelector;
+			productReference = DABB23E41D3BE0CB00DDDF6C /* SDPagesSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABB23DC1D3BE0CB00DDDF6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = songdh;
+				TargetAttributes = {
+					DABB23E31D3BE0CB00DDDF6C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DABB23DF1D3BE0CB00DDDF6C /* Build configuration list for PBXProject "SDPagesSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABB23DB1D3BE0CB00DDDF6C;
+			productRefGroup = DABB23E51D3BE0CB00DDDF6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABB23E31D3BE0CB00DDDF6C /* SDPagesSelector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABB23E21D3BE0CB00DDDF6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABB23F71D3BE0CB00DDDF6C /* LaunchScreen.storyboard in Resources */,
+				DABB23F41D3BE0CB00DDDF6C /* Assets.xcassets in Resources */,
+				DABB23F21D3BE0CB00DDDF6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABB23E01D3BE0CB00DDDF6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABB23EF1D3BE0CB00DDDF6C /* ViewController.m in Sources */,
+				DABB23EC1D3BE0CB00DDDF6C /* AppDelegate.m in Sources */,
+				DABB240A1D3BE1BD00DDDF6C /* ShowViewController.m in Sources */,
+				DABB24061D3BE12F00DDDF6C /* SDCursorView.m in Sources */,
+				DABB23E91D3BE0CB00DDDF6C /* main.m in Sources */,
+				DABB24071D3BE12F00DDDF6C /* SDSelectorCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DABB23F01D3BE0CB00DDDF6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABB23F11D3BE0CB00DDDF6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABB23F51D3BE0CB00DDDF6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABB23F61D3BE0CB00DDDF6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABB23F91D3BE0CB00DDDF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DABB23FA1D3BE0CB00DDDF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABB23FC1D3BE0CB00DDDF6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDPagesSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdh.SDPagesSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DABB23FD1D3BE0CB00DDDF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SDPagesSelector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.songdh.SDPagesSelector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABB23DF1D3BE0CB00DDDF6C /* Build configuration list for PBXProject "SDPagesSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABB23F91D3BE0CB00DDDF6C /* Debug */,
+				DABB23FA1D3BE0CB00DDDF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABB23FB1D3BE0CB00DDDF6C /* Build configuration list for PBXNativeTarget "SDPagesSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABB23FC1D3BE0CB00DDDF6C /* Debug */,
+				DABB23FD1D3BE0CB00DDDF6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABB23DC1D3BE0CB00DDDF6C /* Project object */;
+}
