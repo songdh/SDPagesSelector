@@ -200,7 +200,9 @@ static NSString *const cellIdentifier = @"selectorCell";
         rect = attributes.frame;
     }
     
-    [self setContentOffsetWithCellFrame:rect];
+    if (CGRectGetWidth(self.collectionView.frame) < self.collectionView.contentSize.width) {
+        [self setContentOffsetWithCellFrame:rect];
+    }
     [self resizeLineViewWihtCellFrame:rect animated:YES];
     
     [self addChildViewController];
